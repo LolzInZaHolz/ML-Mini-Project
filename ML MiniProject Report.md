@@ -1,10 +1,10 @@
-## **Machine Learning Project: Regression & Classi�cation** 
+## **Machine Learning Project: Regression & Classification** 
 
 ## **1. Introduction** 
 
 This project applies supervised machine learning techniques on two different datasets: 
 
-**House Prices dataset** (regression problem) **Titanic dataset** (classi�cation problem) 
+**House Prices dataset** (regression problem) **Titanic dataset** (classification problem) 
 
 The objective is to compare multiple models, analyze their performance, and evaluate the effect of preprocessing, scaling, and model complexity. 
 
@@ -22,7 +22,7 @@ The objective is to compare multiple models, analyze their performance, and eval
 
 Target variable: `Survived` 
 
-- Task: Predict passenger survival (Classi�cation) 
+- Task: Predict passenger survival (Classification) 
 
 - Dataset contains demographic and ticket-related features 
 
@@ -60,15 +60,15 @@ Necessary for distance-based and gradient-based models
 
 - Decision Tree Regressor 
 
-## **Classi�cation Models** 
+## **Classification Models** 
 
 Logistic Regression 
 
 - Support Vector Machine (SVM) 
 
-- K-Nearest Neighbors Classi�er 
+- K-Nearest Neighbors Classifier 
 
-- Decision Tree Classi�er 
+- Decision Tree Classifier 
 
 ## **5. Model Evaluation Metrics** 
 
@@ -80,7 +80,7 @@ Mean Absolute Error (MAE)
 
 - R² Score 
 
-## **Classi�cation Metrics** 
+## **Classification Metrics** 
 
 Accuracy 
 
@@ -96,23 +96,23 @@ Training time and prediction (response) time were also recorded for each model.
 
 ## **6.1 Regression Results** 
 
-Polynomial Regression achieved the highest R² score but required signi�cantly more training time. KNN showed slow prediction time due to distance calculations at inference. 
+Polynomial Regression achieved the highest R² score but required significantly more training time. KNN showed slow prediction time due to distance calculations at inference. 
 
 Decision Trees provided strong performance with fast inference. 
 
-## **6.2 Classi�cation Results** 
+## **6.2 Classification Results** 
 
 SVM achieved the highest accuracy but required more computation. 
 
 Logistic Regression provided balanced performance and interpretability. 
 
-Decision Trees were fast but more prone to over�tting. 
+Decision Trees were fast but more prone to overfitting. 
 
 ## **7. Visualization** 
 
 Regression: Actual vs Predicted house prices 
 
-- Classi�cation: Confusion matrix for Logistic Regression 
+- Classification: Confusion matrix for Logistic Regression 
 
 Each visualization matches the learning task and evaluation objective. 
 
@@ -120,9 +120,9 @@ Each visualization matches the learning task and evaluation objective.
 
 The project demonstrates that: 
 
-Preprocessing signi�cantly improves performance 
+Preprocessing significantly improves performance 
 
-- Model choice impacts both accuracy and computational e�ciency 
+- Model choice impacts both accuracy and computational efficiency 
 
 - Scaling is essential for certain models 
 
