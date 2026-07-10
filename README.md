@@ -130,3 +130,9 @@ Preprocessing significantly improves performance
 
 Model selection should balance performance, interpretability, and e�ciency depending on the application. 
 
+---
+### Credits
+
+*   **App Icon Design:** Crafted with care by **juicy_fish**
+
+
